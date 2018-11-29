@@ -1,12 +1,12 @@
-import { Component,HostBinding } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 
 
 @Component({
   selector: '[appMain]',
   templateUrl: './main.component.html',
 })
-export class MainComponent{
+export class MainComponent {
 
-  @HostBinding('class') mainClass:string ='main';
+  @HostBinding('class') mainClass = 'main';
 
 }

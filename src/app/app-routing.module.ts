@@ -7,20 +7,20 @@ import { LikesComponent } from './components/likes/likes.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component:DiscoverComponent,
+    path: '',
+    component: DiscoverComponent,
   },
   {
-    path:'search',
-    component:SearchComponent,
+    path: 'search',
+    component: SearchComponent,
   },
   {
-    path:'likes',
-    component:LikesComponent,
+    path: 'likes',
+    component: LikesComponent,
   },
   {
-    path:'404',
-    component:SoonComponent,
+    path: '404',
+    component: SoonComponent,
   },
 ];
 

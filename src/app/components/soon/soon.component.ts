@@ -6,7 +6,7 @@ import { Component, OnInit, HostBinding } from '@angular/core';
   styleUrls: ['./soon.component.scss']
 })
 export class SoonComponent implements OnInit {
-  @HostBinding('class') workClass:string='work';
+  @HostBinding('class') workClass = 'work';
 
   constructor() { }
 

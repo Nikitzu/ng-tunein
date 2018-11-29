@@ -10,7 +10,7 @@
   grid-row: 2/3;
   grid-column: 2/3;
   position: relative;
-  background: #7E2236;
+  background: rgb(11, 87, 28);
   padding: 3rem 4rem;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;  
@@ -40,7 +40,7 @@
 .cue{
   grid-row: 2/3;
   grid-column: 4/5;
-  background: #DB1D40;
+  background: rgb(11, 87, 28);
   overflow: hidden;
   padding: 3rem 4rem;
   border-top-right-radius: 5px;
@@ -50,7 +50,7 @@
 .red{
   grid-row: 1/-1;
   grid-column: 1/4;
-  background: #DB1D40;
+  background: rgb(201, 216, 66);
 }
 
 .black{

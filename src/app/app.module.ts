@@ -37,10 +37,9 @@ import { LikesService } from './services/Likes.service';
     AppRoutingModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    FormsModule
-    
+    FormsModule,
   ],
-  providers: [DzService,EbusService,LikesService],
+  providers: [DzService, EbusService, LikesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

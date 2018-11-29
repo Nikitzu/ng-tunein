@@ -1,5 +1,5 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
-import Genres from "../../static/GenresMap";
+import Genres from '../../static/GenresMap';
 
 @Component({
   selector: 'app-discover',
@@ -8,22 +8,22 @@ import Genres from "../../static/GenresMap";
 })
 export class DiscoverComponent implements OnInit {
 
-  @HostBinding('class') discover:string='Discover';
-  constructor(){
-    this.getGenre(2098157264,132);
+  @HostBinding('class') discover = 'Discover';
+  constructor() {
+    this.getGenre(2098157264, 132);
   }
 
-  genres=Genres;
-  genreId:132;
-  playlistId:2098157264;
+  genres = Genres;
+  genreId: 132;
+  playlistId: 2098157264;
 
 
   ngOnInit() {
   }
 
-  getGenre(playlistId,genreId){
-    this.playlistId=playlistId
-    this.genreId=genreId;
+  getGenre(playlistId, genreId) {
+    this.playlistId = playlistId;
+    this.genreId = genreId;
   }
 
 }

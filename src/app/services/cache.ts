@@ -1,17 +1,17 @@
-import { of } from "rxjs/"
+import { of } from 'rxjs/';
 
 class Store {
-  store={};
-  
-  has(url){
-    return!!this.store[url]
+  store = {};
+
+  has (url) {
+    return!!this.store[url];
   }
-  set(data,url){
-    this.store[url]=JSON.stringify(data);
+  set (data, url) {
+    this.store[url] = JSON.stringify(data);
     return data;
   }
 
-  get(url){
+  get (url) {
     return of(JSON.parse(this.store[url]));
   }
 }

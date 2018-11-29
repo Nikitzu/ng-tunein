@@ -2,7 +2,7 @@
 This is a javascript project developed with Angular 6.
 
 Simple and elegant music discovery app
-## Demo
+<!-- ## Demo
 https://ng-tunein.netlify.com/
 ## ScreenShot
 ![](./app.png)
@@ -24,4 +24,4 @@ you can change the port number by adding --port to the ng serve command
 
 
 ### contact
-Email : MrBouaggadMoez@gmail.com
+Email : MrBouaggadMoez@gmail.com -->
